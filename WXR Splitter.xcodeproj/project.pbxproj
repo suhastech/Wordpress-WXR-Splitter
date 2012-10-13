@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA29A62B1604E40B00A0FF52 /* WXR Splitter Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = BA29A62A1604E40A00A0FF52 /* WXR Splitter Icon.icns */; };
+		BAAF49AA15E9DF1500718A8B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAAF49A915E9DF1500718A8B /* Cocoa.framework */; };
+		BAAF49B415E9DF1500718A8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAAF49B215E9DF1500718A8B /* InfoPlist.strings */; };
+		BAAF49B615E9DF1500718A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF49B515E9DF1500718A8B /* main.m */; };
+		BAAF49BA15E9DF1500718A8B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BAAF49B815E9DF1500718A8B /* Credits.rtf */; };
+		BAAF49BD15E9DF1500718A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAF49BC15E9DF1500718A8B /* AppDelegate.m */; };
+		BAAF49C015E9DF1600718A8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAF49BE15E9DF1600718A8B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA29A62A1604E40A00A0FF52 /* WXR Splitter Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "WXR Splitter Icon.icns"; sourceTree = "<group>"; };
+		BAAF49A515E9DF1500718A8B /* WXR Splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WXR Splitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAF49A915E9DF1500718A8B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BAAF49AC15E9DF1500718A8B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BAAF49AD15E9DF1500718A8B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BAAF49AE15E9DF1500718A8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BAAF49B115E9DF1500718A8B /* WXR Splitter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WXR Splitter-Info.plist"; sourceTree = "<group>"; };
+		BAAF49B315E9DF1500718A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BAAF49B515E9DF1500718A8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAAF49B715E9DF1500718A8B /* WXR Splitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WXR Splitter-Prefix.pch"; sourceTree = "<group>"; };
+		BAAF49B915E9DF1500718A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BAAF49BB15E9DF1500718A8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAAF49BC15E9DF1500718A8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAAF49BF15E9DF1600718A8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BAF7629115EA0FFE002B8C39 /* WXR Splitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WXR Splitter.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAAF49A215E9DF1500718A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAF49AA15E9DF1500718A8B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAAF499A15E9DF1400718A8B = {
+			isa = PBXGroup;
+			children = (
+				BA29A62A1604E40A00A0FF52 /* WXR Splitter Icon.icns */,
+				BAAF49AF15E9DF1500718A8B /* WXR Splitter */,
+				BAAF49A815E9DF1500718A8B /* Frameworks */,
+				BAAF49A615E9DF1500718A8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAAF49A615E9DF1500718A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF49A515E9DF1500718A8B /* WXR Splitter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAAF49A815E9DF1500718A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF49A915E9DF1500718A8B /* Cocoa.framework */,
+				BAAF49AB15E9DF1500718A8B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAAF49AB15E9DF1500718A8B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF49AC15E9DF1500718A8B /* AppKit.framework */,
+				BAAF49AD15E9DF1500718A8B /* CoreData.framework */,
+				BAAF49AE15E9DF1500718A8B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BAAF49AF15E9DF1500718A8B /* WXR Splitter */ = {
+			isa = PBXGroup;
+			children = (
+				BAF7629115EA0FFE002B8C39 /* WXR Splitter.entitlements */,
+				BAAF49BB15E9DF1500718A8B /* AppDelegate.h */,
+				BAAF49BC15E9DF1500718A8B /* AppDelegate.m */,
+				BAAF49BE15E9DF1600718A8B /* MainMenu.xib */,
+				BAAF49B015E9DF1500718A8B /* Supporting Files */,
+			);
+			path = "WXR Splitter";
+			sourceTree = "<group>";
+		};
+		BAAF49B015E9DF1500718A8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAF49B115E9DF1500718A8B /* WXR Splitter-Info.plist */,
+				BAAF49B215E9DF1500718A8B /* InfoPlist.strings */,
+				BAAF49B515E9DF1500718A8B /* main.m */,
+				BAAF49B715E9DF1500718A8B /* WXR Splitter-Prefix.pch */,
+				BAAF49B815E9DF1500718A8B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAAF49A415E9DF1500718A8B /* WXR Splitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAAF49C315E9DF1600718A8B /* Build configuration list for PBXNativeTarget "WXR Splitter" */;
+			buildPhases = (
+				BAAF49A115E9DF1500718A8B /* Sources */,
+				BAAF49A215E9DF1500718A8B /* Frameworks */,
+				BAAF49A315E9DF1500718A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WXR Splitter";
+			productName = "WXR Splitter";
+			productReference = BAAF49A515E9DF1500718A8B /* WXR Splitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAAF499C15E9DF1400718A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Suhas Sharma";
+			};
+			buildConfigurationList = BAAF499F15E9DF1400718A8B /* Build configuration list for PBXProject "WXR Splitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAAF499A15E9DF1400718A8B;
+			productRefGroup = BAAF49A615E9DF1500718A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAAF49A415E9DF1500718A8B /* WXR Splitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAAF49A315E9DF1500718A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAF49B415E9DF1500718A8B /* InfoPlist.strings in Resources */,
+				BAAF49BA15E9DF1500718A8B /* Credits.rtf in Resources */,
+				BAAF49C015E9DF1600718A8B /* MainMenu.xib in Resources */,
+				BA29A62B1604E40B00A0FF52 /* WXR Splitter Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAAF49A115E9DF1500718A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAF49B615E9DF1500718A8B /* main.m in Sources */,
+				BAAF49BD15E9DF1500718A8B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAAF49B215E9DF1500718A8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAF49B315E9DF1500718A8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BAAF49B815E9DF1500718A8B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAF49B915E9DF1500718A8B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BAAF49BE15E9DF1600718A8B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAAF49BF15E9DF1600718A8B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAAF49C115E9DF1600718A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BAAF49C215E9DF1600718A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BAAF49C415E9DF1600718A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "WXR Splitter/WXR Splitter.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXR Splitter/WXR Splitter-Prefix.pch";
+				INFOPLIST_FILE = "WXR Splitter/WXR Splitter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BAAF49C515E9DF1600718A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "WXR Splitter/WXR Splitter.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WXR Splitter/WXR Splitter-Prefix.pch";
+				INFOPLIST_FILE = "WXR Splitter/WXR Splitter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAAF499F15E9DF1400718A8B /* Build configuration list for PBXProject "WXR Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAF49C115E9DF1600718A8B /* Debug */,
+				BAAF49C215E9DF1600718A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAAF49C315E9DF1600718A8B /* Build configuration list for PBXNativeTarget "WXR Splitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAAF49C415E9DF1600718A8B /* Debug */,
+				BAAF49C515E9DF1600718A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAAF499C15E9DF1400718A8B /* Project object */;
+}
